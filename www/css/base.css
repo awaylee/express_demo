@@ -1,0 +1,148 @@
+/*base*/
+/*iphone 6plus*/
+@media only screen and (min-width:414px ) {
+  html,body{font-size: 18px !important;}
+}
+
+/* ipad横屏 */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape){
+  html,body{font-size: 22px !important;}
+}
+
+/* ipad竖屏 */
+@media (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+  html,body{font-size: 26px !important;}
+}
+
+html,body{
+  font-size: 16px;
+}
+.F_wrap header,.F_wrap .content .btn{
+  width: 100%;
+  height:2.75rem;
+  line-height: 2.75rem;
+  text-align: center;
+  background-color: #0dc441;
+  color: #fff;
+  font-size: 1rem;
+}
+.F_wrap .content{
+  width: 90.625%;
+  margin: 0 auto;
+  margin-top:.9375rem;
+}
+.F_wrap .content .input{
+  width: 100%;
+  height:2.0625rem;
+  border-bottom: 1px solid #7f7f7f;
+  margin-bottom: 1.6875rem;
+}
+.F_wrap .content .input input{
+  width: 100%;
+  height:2.0625rem;
+  line-height: 2.0625rem;
+  border:0;
+  font-size: .9375rem;
+}
+.F_wrap .content .btn{
+  margin-top:.8125rem;
+  border: 0;
+  border-radius: 6px;
+}
+.F_wrap .content .tips{
+  font-size: .5625rem;
+  margin-bottom: .875rem;
+  color: #b4b4b4;
+}
+.F_wrap .content .tips a{
+  color: #a3e9b7;
+  text-decoration: underline;
+}
+
+.F_wrap footer{
+  width: 100%;
+  height:2.75rem;
+  display: box;
+  display: -webkit-box;
+  border-top: 1px solid #e5e5e5;
+  background: #fff;
+}
+.F_wrap footer a{
+  display: block;
+  box-flex:1;
+  -webkit-box-flex:1;
+  text-align: center;
+  color: #cccccc;
+}
+.F_wrap footer a i{
+  display: block;
+  padding: .3125rem 0;
+}
+.F_wrap footer .active{
+  color: #0dc441;
+}
+.F_wrap .camera{
+  position: absolute;
+  width: 3.25rem;
+  height: 3.25rem;
+  line-height: 3.25rem;
+  text-align: center;
+  border:1px solid #dedede;
+  border-radius: 50%;
+  bottom:0;
+  left:50%;
+  margin-left: -1.625rem;
+  background: #fff;
+  color: #d6d6d6;
+}
+.F_wrap .camera i{
+  font-size: 1.75rem;
+}
+.F_wrap{
+  width: 100%;
+  height: 100%;
+  display: box;
+  display: -webkit-box;
+  box-orient:vertical;
+  -webkit-box-orient:vertical;
+}
+header div{
+  width:37.5%;
+  margin:0 auto;
+}
+header div a{
+  display: inline-block;
+  color: #fff;
+  width: 50%;
+  height:1.5rem;
+  line-height:1.5rem;
+  text-align: center;
+  background: #3dd067;
+}
+header div .hot{
+  border-radius:.75rem 0 0 .75rem;
+}
+header div .attention{
+  border-radius:0 .75rem .75rem 0;
+}
+header div .active{
+  background: #64d985;
+}
+.F_wrap .wrapper{
+  box-flex:1;
+  -webkit-box-flex:1;
+  -o-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  box-flex: 1;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+

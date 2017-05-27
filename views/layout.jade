@@ -2,6 +2,21 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/css/style.css')
+    link(rel='stylesheet', href='/libs/iconfont/iconfont.css')
+    link(rel='stylesheet', href='/css/base.css')
   body
-    block content
+    .F_wrap
+      block content
+      footer
+        a(href='/' class='active')
+          i.iconfont.icon-home
+          | 首页
+        a(href='/discover')
+          i.iconfont.icon-unie664
+          | 发现
+        a(href='/personal')
+          i.iconfont.icon-wode
+          | 我的
+        a(href='javascript:;')
+          i.iconfont.icon-tuichu
+          | 退出
