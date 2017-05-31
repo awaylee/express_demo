@@ -2,13 +2,16 @@ doctype html
 html
   head
     title= title
+    mata(name="viewport" content="width=device-width, initial-scale=1, minimm-sacle=1, maximm-scale=1, user-scalable=no, minimal-ui")
+    mate(name="apple-mobile-web-app-capable" content="yes")
+    mata(name="apple-mobile-web-app-status-bar-style" content="black")
     link(rel='stylesheet', href='/libs/iconfont/iconfont.css')
     link(rel='stylesheet', href='/css/base.css')
   body
     .F_wrap
       block content
       footer
-        a(href='/' class='active')
+        a(href='/users' class='active')
           i.iconfont.icon-home
           | 首页
         a(href='/discover')
